@@ -42,6 +42,10 @@ public class Symfony2ProjectComponent implements ProjectComponent {
     }
 
     public void initComponent() {
+        User user = new User("foo", 12);
+
+
+
         //System.out.println("initComponent");
     }
 
